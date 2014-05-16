@@ -1,0 +1,344 @@
+@font-face {
+  font-family: "Barkentina Test";
+  src: url("Barkentina.otf");
+  }
+
+body
+{
+	font-size: 62.5%;
+}
+
+body, header, #logo, #menu, #menu ul, #social, #buttons, #facebook, #twitter, #youtube, .container, #slideshow, .ngg_images, .ngg-widget, img, a, footer
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background-color: #e2dfd4;
+}
+
+header
+{
+	padding-top: 1em;
+	padding left: 1em;
+	padding-bottom: 8.2em;
+	background-color: #750C09;
+	border-bottom-style: solid;
+	border-bottom-width: 0.5em;
+	border-bottom-color: #4276a2;
+	font-family: "Barkentina Test";
+}
+
+.container
+{
+	width: 98em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo
+{
+	float: left;
+	width: 23em;
+	height: 11.6em;
+	background-image:url('images/logo.png');
+	background-repeat: no-repeat;
+	overflow: visiable;
+}
+
+
+#logo a:link, #logo a:visited
+{
+	width: 23em;
+	height: 11.4em;
+	display: block;
+}
+#menu
+{
+	float: left;
+	padding-top: 4.7em;
+	color: #FFFFFF;
+}
+
+header a, header a:visited
+{
+	display: block;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding-bottom: 0.6em;
+}
+
+#menu a:link
+{
+	height: 1em;
+}
+
+#menu a:hover, #menu a:active
+{
+	color: #4276a2;
+	background-image:url('images/arrow.png');
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+
+#menu ul li
+{
+	float: left;
+	display: block;
+	height: 1.6em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	list-style-type: none;
+	font-size: 2.2em;
+}
+
+#menu ul li:first-child
+{
+	padding-left: 1.5em;
+}
+
+#social
+{
+	display: block;
+	float: right;
+	font-size: 1.8em;
+	text-align: center;
+}
+
+#social a:hover
+{
+	color: #4276a2;
+}
+
+#buttons
+{
+	margin-top: 0.6em;
+}
+
+#facebook, #twitter, #youtube
+{
+	display: inline-block;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+	width: 20px;
+	height: 24px;
+}
+
+#facebook
+{
+	background-image:url('images/fb_icon.png');
+}
+#facebook:hover
+{
+	background-image:url('images/fb_icon_b.png');
+}
+
+#twitter
+{
+	background-image:url('images/tw_icon.png');
+}
+
+#twitter:hover
+{
+	background-image:url('images/tw_icon_b.png');
+}
+
+#youtube
+{
+	background-image:url('images/yt_icon.png');
+}
+
+#youtube:hover
+{
+	background-image:url('images/yt_icon_b.png');
+}
+
+#mailinglist
+{
+	margin-top: 0.5em;
+}
+
+#main
+{
+	min-height: 70em;
+	background-image:url('images/background-n.png');
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+
+#slideshow
+{
+	display: block;
+	width: 100%;
+        list-style-type: none;
+}
+
+#gig_guide, #news
+{
+	display: block;
+	font-family: Barkentina Test;
+	color: #4276a2;
+}
+
+#gig_guide h1, #news h1
+{
+	text-transform: uppercase;
+}
+
+#gig_guide
+{
+	float: left;
+	list-style-type: none;
+	width: 60%;
+}
+
+#gig_guide ul
+{
+	padding: 0px;
+}
+
+.gigs
+{
+	list-style: none;
+	font-family: Khmer UI;
+	font-size:1.8em;
+	color: #000000;
+	padding: 0px;
+}
+
+li.gigs
+{
+	width: 100%;	
+	padding: 0px;
+}
+
+li:nth-child(odd).gigs
+{
+	/*background-color: #c8c5bc;
+	opacity: 0.5;*/
+	background-color: rgba(200, 197, 198, 0.5);
+}
+
+.contain
+{
+	display: inline-block;
+	width: 27%;
+	padding: 2%;
+	/*padding-left: 3%;*/
+	margin: 0px;
+	margin-left: 1%;
+	text-align: left;
+}
+
+#news
+{
+	float: right;
+	padding-left: 5%;
+	padding-right: 5%;
+	width: 30%;
+}
+
+#news p
+{
+	font-size: 1.4em;
+	font-family: Khmer UI, Geneva, sans-serif;
+	color: black;
+}
+
+.read-more
+{
+	display: block;
+	font-family: Barkentina Test;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+#news a:link, #news a:visited
+{
+	color: #4276a2;
+	text-decoration: none;
+}
+
+#news a:hover
+{
+	text-decoration: underline;
+}
+
+article
+{
+	clear: both;
+	display: block;
+	padding-top: 0.1em;
+}
+
+.text_body
+{
+	background-color: rgba(200, 197, 198, 0.5);
+	padding: 1.5%;
+}
+
+#event_guide
+{
+	background-color: #e2dfd4;
+}
+
+article h1
+{
+	font-family: Barkentina Test;
+	color: #4276a2;
+	font-size: 2.8em;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+article h2
+{
+	font-family: Barkentina Test;
+	color: #4276a2;
+	font-size: 1.8em;
+}
+
+article p
+{
+	font-size: 1.6em;
+	font-family: Khmer UI, Geneva, sans-serif;
+}
+
+article a:link, article a:visited
+{
+	color: #4276a2;
+}
+
+article a:hover
+{
+	text-decoration: none;
+}
+
+#Gallery
+{
+	text-align: center;
+}
+
+.contains
+{
+	display: inline-block;
+	width: 19%;
+	padding: 2%;
+	margin: 0px;
+	margin-left: 1%;
+	text-align: center;
+	font-family: Khmer UI, Geneva, sans-serif;
+	/*background-color: red;*/
+}
+
+footer
+{
+	clear: both;
+	width: 100%;
+	background-color: #750C09;
+	border-top-style: solid;
+	border-top-width: 0.5em;
+	border-top-color: #4276a2;
+}
